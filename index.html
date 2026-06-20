@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KIWARI Creative — Creative agency yang menghadirkan solusi branding, social media, content production, design, dan web development untuk bisnis Anda.">
+  <title>KIWARI Creative — Where Creativity Meets Strategy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/kiwari-logo.png" alt="KIWARI" class="nav-logo-img">
+        <span>Creative</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">Home</a>
+        <div class="nav-dropdown">
+          <a class="nav-link nav-dropdown-trigger">
+            Services
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="branding.html" class="nav-dropdown-item">
+              <div class="nav-dropdown-icon">💎</div>
+              <div>
+                <strong>Branding</strong>
+                <p style="font-size:0.75rem;color:var(--text-muted);margin-top:2px;">Logo, Identity & Rebranding</p>
+              </div>
+            </a>
+            <a href="social-media.html" class="nav-dropdown-item">
+              <div class="nav-dropdown-icon">📱</div>
+              <div>
+                <strong>Social Media</strong>
+                <p style="font-size:0.75rem;color:var(--text-muted);margin-top:2px;">Planning, Content & Copy</p>
+              </div>
+            </a>
+            <a href="content-production.html" class="nav-dropdown-item">
+              <div class="nav-dropdown-icon">🎬</div>
+              <div>
+                <strong>Content Production</strong>
+                <p style="font-size:0.75rem;color:var(--text-muted);margin-top:2px;">Photo, Video & Editing</p>
+              </div>
+            </a>
+            <a href="design.html" class="nav-dropdown-item">
+              <div class="nav-dropdown-icon">🎨</div>
+              <div>
+                <strong>Design</strong>
+                <p style="font-size:0.75rem;color:var(--text-muted);margin-top:2px;">Graphic & Marketing Materials</p>
+              </div>
+            </a>
+            <a href="web-development.html" class="nav-dropdown-item">
+              <div class="nav-dropdown-icon">🌐</div>
+              <div>
+                <strong>Web Development</strong>
+                <p style="font-size:0.75rem;color:var(--text-muted);margin-top:2px;">Website & Digital Solutions</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+
+      <a href="contact.html" class="btn btn-primary btn-sm nav-cta desktop">Let's Talk</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="branding.html">Branding</a>
+    <a href="social-media.html">Social Media</a>
+    <a href="content-production.html">Content Production</a>
+    <a href="design.html">Design</a>
+    <a href="web-development.html">Web Development</a>
+    <div class="mobile-menu-divider"></div>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="btn btn-primary" style="margin-top:8px;">Let's Talk</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-noise"></div>
+    <div class="hero-shapes">
+      <div class="hero-shape"></div>
+      <div class="hero-shape"></div>
+      <div class="hero-shape"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <div class="hero-badge-dot"></div>
+          <span class="hero-badge-text">Creative Agency — Based in Indonesia</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-title-line">We Build Brands</span>
+          <span class="hero-title-line">That <em>Stand Out</em></span>
+        </h1>
+        <p class="hero-subtitle">
+          Kami adalah tim kreatif yang membantu brand Anda tampil beda — dari branding, konten, hingga digital experience yang berkesan.
+        </p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">
+            Explore Services
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="about.html" class="btn btn-secondary">About Us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="hero-scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Our Services</div>
+        <h2 class="section-title">Layanan Kreatif untuk <span class="text-gold">Setiap Kebutuhan</span></h2>
+        <p class="section-subtitle">Dari identitas visual sampai kehadiran digital — kami punya solusi lengkap untuk mengangkat brand Anda ke level berikutnya.</p>
+      </div>
+
+      <div class="services-grid stagger-children">
+        <!-- Branding -->
+        <a href="branding.html" class="service-card reveal">
+          <div class="service-card-number">01</div>
+          <div class="service-card-icon">💎</div>
+          <h3 class="service-card-title">Branding</h3>
+          <p class="service-card-desc">Bangun identitas brand yang kuat dan memorable. Dari logo hingga brand guidelines yang konsisten.</p>
+          <div class="service-card-tags">
+            <span class="service-tag">Logo Design</span>
+            <span class="service-tag">Brand Identity</span>
+            <span class="service-tag">Rebranding</span>
+          </div>
+          <div class="service-card-link">
+            Selengkapnya
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+
+        <!-- Social Media -->
+        <a href="social-media.html" class="service-card reveal">
+          <div class="service-card-number">02</div>
+          <div class="service-card-icon">📱</div>
+          <h3 class="service-card-title">Social Media Management</h3>
+          <p class="service-card-desc">Kelola media sosial Anda secara profesional. Dari planning konten hingga copywriting yang engaging.</p>
+          <div class="service-card-tags">
+            <span class="service-tag">Content Planning</span>
+            <span class="service-tag">Feed & Reels</span>
+            <span class="service-tag">Copywriting</span>
+          </div>
+          <div class="service-card-link">
+            Selengkapnya
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+
+        <!-- Content Production -->
+        <a href="content-production.html" class="service-card reveal">
+          <div class="service-card-number">03</div>
+          <div class="service-card-icon">🎬</div>
+          <h3 class="service-card-title">Content Production</h3>
+          <p class="service-card-desc">Produksi konten visual berkualitas tinggi. Fotografi, videografi, dan editing yang profesional.</p>
+          <div class="service-card-tags">
+            <span class="service-tag">Photography</span>
+            <span class="service-tag">Videography</span>
+            <span class="service-tag">Video Editing</span>
+          </div>
+          <div class="service-card-link">
+            Selengkapnya
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+
+        <!-- Design -->
+        <a href="design.html" class="service-card reveal">
+          <div class="service-card-number">04</div>
+          <div class="service-card-icon">🎨</div>
+          <h3 class="service-card-title">Design</h3>
+          <p class="service-card-desc">Desain grafis yang eye-catching untuk semua kebutuhan marketing Anda. Dari poster hingga banner.</p>
+          <div class="service-card-tags">
+            <span class="service-tag">Graphic Design</span>
+            <span class="service-tag">Brosur</span>
+            <span class="service-tag">Banner & Poster</span>
+          </div>
+          <div class="service-card-link">
+            Selengkapnya
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+
+        <!-- Web Development -->
+        <a href="web-development.html" class="service-card reveal">
+          <div class="service-card-number">05</div>
+          <div class="service-card-icon">🌐</div>
+          <h3 class="service-card-title">Web Development</h3>
+          <p class="service-card-desc">Website modern dan responsif yang merepresentasikan brand Anda secara digital dengan sempurna.</p>
+          <div class="service-card-tags">
+            <span class="service-tag">Company Profile</span>
+            <span class="service-tag">Landing Page</span>
+            <span class="service-tag">Undangan Digital</span>
+          </div>
+          <div class="service-card-link">
+            Selengkapnya
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal-left">
+          <div class="about-label">Why KIWARI</div>
+          <h2 class="about-title">Kreativitas Tanpa Batas, <span class="text-gold">Hasil Tanpa Kompromi</span></h2>
+          <p class="about-desc">
+            KIWARI Creative lahir dari semangat anak muda yang percaya bahwa setiap brand punya cerita unik.
+            Kami menggabungkan strategi yang tajam dengan eksekusi kreatif yang standout — menghasilkan karya yang bukan cuma estetik, tapi juga impactful.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">🎯</div>
+              <div class="about-feature-text">
+                <h4>Strategy-First</h4>
+                <p>Setiap desain punya tujuan jelas</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">⚡</div>
+              <div class="about-feature-text">
+                <h4>Fast Delivery</h4>
+                <p>Timeline cepat tanpa sacrifice quality</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🤝</div>
+              <div class="about-feature-text">
+                <h4>Collaborative</h4>
+                <p>Partner kerja, bukan sekadar vendor</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🔥</div>
+              <div class="about-feature-text">
+                <h4>Trend-Savvy</h4>
+                <p>Selalu up-to-date dengan tren terbaru</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual reveal-right">
+          <div class="about-visual-card">
+            <div class="about-visual-text">
+              <h3>KIWARI</h3>
+              <p>Creative Agency</p>
+            </div>
+          </div>
+          <div class="about-float-card">
+            <div class="about-float-stat">150+</div>
+            <div class="about-float-label">Projects Completed</div>
+          </div>
+          <div class="about-float-card">
+            <div class="about-float-stat">50+</div>
+            <div class="about-float-label">Happy Clients</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="150" data-suffix="+">0+</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="50" data-suffix="+">0+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="5" data-suffix="+">0+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item reveal">
+          <div class="stat-number" data-count="15" data-suffix="">0</div>
+          <div class="stat-label">Team Members</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <div class="cta-card reveal-scale">
+        <div class="cta-content">
+          <h2 class="cta-title">Ready to <span class="text-gold">Level Up</span> Brand Anda?</h2>
+          <p class="cta-desc">Yuk, diskusi bareng tim KIWARI Creative. Kami siap bantu wujudkan visi kreatif Anda menjadi kenyataan.</p>
+          <div class="hero-buttons">
+            <a href="https://wa.me/6287831258910" target="_blank" class="btn btn-primary">
+              Chat via WhatsApp
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="mailto:nurzalkifli.nk@gmail.com" class="btn btn-secondary">Email Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="img/kiwari-logo.png" alt="KIWARI" class="footer-logo-img">
+            Creative
+          </div>
+          <p class="footer-brand-desc">Creative agency yang menghadirkan solusi kreatif komprehensif untuk mengangkat brand Anda ke level berikutnya.</p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/nurzalkifli/" target="_blank" class="footer-social" aria-label="Instagram">📸</a>
+            <a href="https://www.tiktok.com/@nurzalkifli67" target="_blank" class="footer-social" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="branding.html">Branding</a></li>
+            <li><a href="social-media.html">Social Media</a></li>
+            <li><a href="content-production.html">Content Production</a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="web-development.html">Web Development</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#services">Our Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:nurzalkifli.nk@gmail.com">nurzalkifli.nk@gmail.com</a></li>
+            <li><a href="https://wa.me/6287831258910" target="_blank">+62 878-3125-8910</a></li>
+            <li><a href="#">Jakarta, Indonesia</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 KIWARI Creative. All rights reserved.</p>
+        <p>Designed with 💛 by <a href="#">KIWARI Creative</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
